@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center center;
+    background-image: url(images/b5.jpg);
+    background-size:cover;
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+    color:aliceblue;
+    text-align: center;
+}
+
+p {
+ font-size: 20px;
+ color: aliceblue;
+ text-align: center;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+box{
+    width: 200px;
+    border-bottom: 20px solid transparent;
+    border-bottom: 20px soloid transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box h2{
+color: aliceblue;
+background: transparent;
+padding: 10px 10px;
+font-size: 20px;
+font-weight: 700;
+border-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.box ul{
+    position:relative;
+    background-color: transparent;
+
+}
+
+.box li{
+    list-style: none;
+    align-items: center;
+    padding: 10px 10px;
+    background: transparent;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    transition: transform;
+    color: azure;
+}
+.box ul li:hover{
+    transform: scale(1.0);
+    z-index: 100;
+    background:   #479add;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    color: azure;
+}
+.box ul li a {
+    color: azure;
+}
