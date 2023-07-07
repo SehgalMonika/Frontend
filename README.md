@@ -1,5 +1,5 @@
 # Frontend
-**Rat-AppFrontEnd**
+**Pet-AppFrontEnd**
 
 Welcome to the Pet Detect Application frontend Repository! This Repository contains the frontend code for the Pet Detection Application, A web-based application that helps users to detect and identify pets in their surroundings.
 
